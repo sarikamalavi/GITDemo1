@@ -26,6 +26,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         tableview.dataSource = self
         tableview.reloadData()
+        
+        number()
+    }
+    
+    func number(){
+        
+        print("1,2,3,4,5")
     }
     
        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
