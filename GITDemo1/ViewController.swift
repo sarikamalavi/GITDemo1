@@ -15,8 +15,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     var arr = ["ABC","XYZ","LMN"]
     
+    var name : String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        name = "sarika"
         
         tableview.delegate = self
         
